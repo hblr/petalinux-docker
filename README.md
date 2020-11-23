@@ -1,4 +1,10 @@
 # petalinux-docker
+
+## Disclaimer
+This is a fork of petalinux-docker by sonnyhcl. Thank you for sharing. I made some adjustments to adapt to
+Petalinux version 2017.4 and to use a German mirror of apt packages.
+
+# Docker image
 package petalinux tools into docker image
 
 > If you feel this is helpful for you, please star me right now :)
@@ -29,7 +35,7 @@ petalinux-build # this will take a long time
 ## Avaiable versions
 - <https://hub.docker.com/r/sonnyhcl/petalinux/tags/>
 - base image: ubuntu 16.04
-- petalinux version:2018.2
+- petalinux version:2017.4
 
 ## Build you own images
 ```
@@ -37,7 +43,7 @@ petalinux-build # this will take a long time
 ```
 #### example
 ```
-./build-docker-image.sh `pwd` 2018.2
+./build-docker-image.sh `pwd` 2017.4
 ```
 
 ## Reference
