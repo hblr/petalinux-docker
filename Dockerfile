@@ -1,15 +1,15 @@
 FROM  	ubuntu:16.04
 
-LABEL 	maintainer="sonnyhcl@163.com"
+LABEL 	maintainer="heiko.buehler@hs-offenburg.de"
 
 ENV 	DEBIAN_FRONTEND=noninteractive
 ENV 	LC_ALL=en_US.UTF-8 
 ENV 	LANG=en_US.UTF-8 
 ENV 	LANGUAGE=en_US.UTF-8 
-ENV 	TZ=Asia/Shanghai
+ENV 	TZ=Europe/Berlin
 
 ARG 	installer_url="172.17.0.1:8000"
-ARG 	version=2018.2
+ARG 	version=2017.4
 ARG 	user=plnx
 
 RUN 	adduser --disabled-password --gecos '' $user
